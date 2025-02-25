@@ -1,2 +1,2 @@
 # Portfolio
-It's just my portfolio, though I haven't added my work to it yet.
+It's just my portfolio, though it's not complete.
