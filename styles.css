@@ -1,0 +1,233 @@
+
+body {
+    background-color: #151515;
+    font-family: "source serif 4";
+    color: white;
+}
+
+a {
+    color: grey;
+    font-family: "source serif 4";
+}
+
+.main-scroll {
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory; 
+}
+
+.scroll-section-1 {
+    position: relative;
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.name {
+
+    font-size: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}
+
+.main-content {
+
+    position: absolute;
+    width: 500px;
+    top: 200px;
+    right: 200px;
+    font-family: "source serif 4";
+    font-size: 15px;
+}
+
+.contact {
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: 70%;
+}
+
+.contact-head {
+
+    font-size: 70px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.contact-info {
+
+    height: 200px;
+}
+
+.contact-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.contact-button-container {
+    display: flex;
+    width: 100%;
+}
+
+.contact-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.button-part {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.button-icon {
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.button-icon-2 {
+    height: 50px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+}
+
+.button-icon-3 {
+    height: 50px;
+    margin-left: 18px;
+    margin-bottom: 5px;
+}
+
+.skills-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.skills-flex {
+    display: flex;
+    flex: 1;
+    margin-left: 35%;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.my-skills-heading {
+    font-size: 70px;
+    flex: 1;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-box {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills {
+    font-size: 30px;
+    color: grey;
+}
+
+.language-flex {
+    display: flex;
+    flex: 1;
+    margin-right: 35%;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.my-language-heading {
+    font-size: 70px;
+    flex: 1;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.language {
+    font-size: 30px;
+    color: grey;
+}
+
+.work-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.work-title {
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.project-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-pic-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-pic {
+    height: 250px;
+}
+
+.project-name {
+    font-size: 30px;
+}
+
